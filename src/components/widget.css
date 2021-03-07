@@ -1,0 +1,42 @@
+.widget {
+  width: 245px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 2%;
+  box-shadow: -7px 7px 15px 0px rgba(0,0,0,0.27);
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 3px 3px;
+}
+.widget .title {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.widget .title h2 {
+  font-size: 20px;
+}
+.widget .title p{
+  font-size: 20px;
+  text-align: right;
+  color: red;
+  cursor: pointer;
+}
+.widget .wrapper h4 {
+  font-size: 18px;
+}
+.widget .wrapper p {
+  text-align: right;
+}
+.widget .wrapper h4:first-of-type {
+  color: red;
+}
+.widget .wrapper h4:last-of-type {
+  color: blue;
+}
+.widget .wrapper span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
